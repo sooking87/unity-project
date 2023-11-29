@@ -1,3 +1,21 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:677c1d676b4b2866ca9c67e9fca3a163d52001221e6fcf1ad375aa14e89b05b1
-size 477
+fileFormatVersion: 2
+guid: a27dbbcb52461cc4ca5e3884d5cea063
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Noto Sans KR
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

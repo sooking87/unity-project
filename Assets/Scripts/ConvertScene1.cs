@@ -1,3 +1,12 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:d768dab037438134a5027a470ac7f82c1a85d269ea054840f380a23dfe108a1f
-size 258
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.SceneManagement;
+
+public class ConvertScene1 : MonoBehaviour
+{
+     public void SceneChange()
+    {
+        SceneManager.LoadScene("Main2");
+    }
+}

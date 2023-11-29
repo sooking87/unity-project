@@ -1,3 +1,54 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:9a2b5828cad4193e9e66dfd540d2f1e9dcd027fda3a14fbf28056e15b0a2a561
-size 1381
+// using System.Collections;
+// using System.Collections.Generic;
+using MixedReality.Toolkit.Input;
+using MixedReality.Toolkit.UX;
+using TMPro;
+using UnityEngine;
+using UnityEngine.UI;
+
+public class FormInputKeyboard : MonoBehaviour
+{
+    public TMP_InputField inputField;
+    private TouchScreenKeyboard keyboard;
+    private string previousText = "";
+
+    // Start is called before the first frame update
+    void Start()
+    {
+    }
+    public void OpenSystemKeyboard()
+    {
+        keyboard = TouchScreenKeyboard.Open("", TouchScreenKeyboardType.Default, false, false, false, false);
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        KeyboardToInputField();
+    }
+
+    private void KeyboardToInputField()
+    {
+        if (keyboard != null && inputField != null)
+        {
+            // Check if the keyboard text has changed
+            if (keyboard.text != previousText)
+            {
+                // Assign the keyboard text to the input field text
+                inputField.text = keyboard.text;
+
+                // Update the previousText
+                previousText = keyboard.text;
+            }
+        }
+    }
+
+    public void CloseSystemKeyboard()
+    {
+        if (keyboard != null)
+        {
+            keyboard.active = false;
+            keyboard = null;
+        }
+    }
+}
