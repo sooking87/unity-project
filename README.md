@@ -1,12 +1,3 @@
-# [TEAM ICH] BlackOut
-흑역사를 지우는 VR 서비스
-
-## install
-1. clone this repository
-2. `git lfs pull`
-
-## version
-|name|version|
-|----|----|
-|unity hub|3.6.0^|
-|unity|2021.3.32f1|
+version https://git-lfs.github.com/spec/v1
+oid sha256:3fc18e759ff2de6de23f6e7f24c5c0dd6c4e7a2718758469f57a604dcfb8dd7c
+size 203
