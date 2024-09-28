@@ -1,3 +1,12 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:a531a6e48db0e60c22aae25c10c08a3a67a7bc6bdc46ad66a3ea7c4b97407cc6
-size 66
+# [TEAM ICH] BlackOut
+흑역사를 지우는 VR 서비스
+
+## 프로젝트 소개
+
+저희는 생각을 물질처럼 다루기 개념을 통해 흑역사를 잊는데 도움이 되는 VR 서비스를 개발하였습니다. 생각을 물건처럼 다루고, 직접 버리는 행위를 했을 때 망각 효과가 증가한 실험 결과를 토대로, 유사한 방식을 통해 흑역사를 지우도록 도와주는 서비스입니다. Hololens2 기기를 이용하여 사용자가 자신이 잊고 싶은 기억을 입력하면, 앞서 입력받은 기본 정보를 바탕으로 시각화한 이미지가 VR 기기에 시각화되어 나타나고, 해당 이미지를 손을 이용해 지우는 행위를 통해, 버리는 행동을 자각하게 하도록 했습니다. 이를 통해 흑역사를 효과적으로 잊어버리는 효과가 기대됩니다.
+
+## Demo 비디오 링크
+
+[![thumbnail](./image/Start.png)](<https://youtu.be/meaOrw9kVOU?si=lnOxX5lbPcvVet5c>)
+
+
